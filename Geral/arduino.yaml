@@ -1,0 +1,9 @@
+path: D:/Programação/TCC/datasets/arduino  # Define o diretório raiz onde está o dataset
+train: train  # Indica a pasta de imagens de treino relativa ao caminho raiz, atualmente 850 fotos
+val: val  # Indica a pasta de imagens de validação relativa ao caminho raiz, atualmente 376 fotos
+test:  # Campo opcional para imagens de teste (não definido neste caso)
+
+names:  # Define as classes que o modelo irá reconhecer
+  0: Arduino  # Classe 0 corresponde a "Arduino"
+  1: Protoboard  # Classe 1 corresponde a "Protoboard"
+  2: Chave de fenda  # Classe 2 corresponde a "Chave de fenda"

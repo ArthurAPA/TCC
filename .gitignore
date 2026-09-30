@@ -1,0 +1,19 @@
+# Dataset (fotos e labels)
+arduino/
+
+# Resultados de treinamento do YOLO
+runs/
+
+# Cache do Python e do YOLO
+__pycache__/
+*.cache
+
+# Modelos base (o ultralytics baixa sozinho)
+yolov8n.pt
+yolov8s.pt
+
+# Relatório gerado pelo código
+Relatorio.xlsx
+
+# Banco de testes (remova esta linha se quiser enviá-lo)
+deteccoes.db
