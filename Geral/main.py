@@ -6,8 +6,8 @@ from collections import defaultdict
 import os
 
 # CONFIGURAÇÕES
-
-MODELO = r"D:\Programação\TCC\datasets\Geral\train15\weights\best.pt"
+BASE = Path(__file__).resolve().parent
+MODELO = BASE / "modelo" / "best.pt"
 
 nomes = {
     0: "Arduino",
@@ -224,6 +224,4 @@ for nome_obj, quantidade in contador.items():
 
 # Gera Excel automaticamente
 
-os.system(
-    "python D:/Programação/TCC/datasets/Geral/gerar_excel.py"
-)
+subprocess.run([sys.executable, str(BASE / "gerar_excel.py")], cwd=BASE)
