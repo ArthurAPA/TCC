@@ -1,3 +1,8 @@
+<p align="center">
+  <img src="https://github.com/ArthurAPA/TCC/blob/main/Logotipo%20futurista%20C.I.A.V.%20em%20azul%20e%20branco.png" alt="Logo" width="500">
+</p>
+
+
 # Contador de Objetos com YOLOv8 — TCC
 
 Sistema de visão computacional que detecta, rastreia e conta em tempo real três objetos: **Arduino**, **Protoboard** e **Chave de fenda**. As detecções são gravadas em um banco SQLite e exportadas para um relatório em Excel.
@@ -106,6 +111,12 @@ Antes de rodar, ajuste os caminhos no topo de cada script. O treino usa o `yolov
 | mAP@50 | [preencher] |
 | mAP@50-95 | [preencher] |
 
+<p align="center">
+  <img src="https://github.com/ArthurAPA/TCC/blob/main/Logotipo%20futurista%20C.I.A.V.%20em%20azul%20e%20branco.png" alt="Logo" width="500">
+</p>
+<p align="center">
+  <img src="https://github.com/ArthurAPA/TCC/blob/main/Logotipo%20futurista%20C.I.A.V.%20em%20azul%20e%20branco.png" alt="Logo" width="500">
+</p>
 <!-- Adicione a matriz de confusão e o gráfico de treino: -->
 <!-- ![Matriz de confusão](docs/confusion_matrix.png) -->
 
