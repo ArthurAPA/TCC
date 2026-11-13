@@ -1,6 +1,6 @@
 import os  # Importa funções para manipulação de arquivos e diretórios
 
-pasta = r"D:\Programação\TCC\datasets\arduino\train1"  # Define o caminho da pasta onde estão as imagens
+pasta = DATASET / "train1"  # Define o caminho da pasta onde estão as imagens
 
 for arquivo in os.listdir(pasta):  # Percorre todos os arquivos dentro da pasta
     if arquivo.endswith((".jpg",".png",".jpeg")):  # Verifica se o arquivo é uma imagem
