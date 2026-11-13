@@ -2,10 +2,9 @@ import os  # Importa funções para manipulação de arquivos e diretórios
 import random  # Importa funções para operações aleatórias
 import shutil  # Importa funções para mover/copiar arquivos
 
-source_dir = r"D:\Programação\TCC\datasets\arduino\train1"  # Define o diretório de origem onde estão imagens e labels
-
-train_dir = r"D:\Programação\TCC\datasets\arduino\train"  # Define o diretório de destino para treino
-val_dir = r"D:\Programação\TCC\datasets\arduino\val"  # Define o diretório de destino para validação
+source_dir = DATASET / "train1"
+train_dir = DATASET / "train"
+val_dir = DATASET / "val"
 
 os.makedirs(train_dir, exist_ok=True)  # Cria a pasta de treino caso não exista
 os.makedirs(val_dir, exist_ok=True)  # Cria a pasta de validação caso não exista
