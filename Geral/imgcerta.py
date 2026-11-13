@@ -1,7 +1,7 @@
 from PIL import Image
 import os
 
-pasta = r"D:\seu_dataset"
+pasta = DATASET
 
 for raiz, dirs, arquivos in os.walk(pasta):
     for arquivo in arquivos:
