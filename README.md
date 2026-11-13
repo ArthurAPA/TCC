@@ -2,10 +2,11 @@
 
 Sistema de visão computacional que detecta, rastreia e conta em tempo real três objetos: **Arduino**, **Protoboard** e **Chave de fenda**. As detecções são gravadas em um banco SQLite e exportadas para um relatório em Excel.
 
-> Trabalho de Conclusão de Curso — [Nome do curso], [Instituição], [ano]
-> Autor: Murilo Ribeiro Postal · Orientador: [nome]
+> Trabalho de Conclusão de Curso — Automação Industrial, Etec Júlio De Mesquita, 2026
+> Autores: Arthur Pavan Andre, Brayan veiga dos Anjos, Gabriel Van-Dal Sant'Ana, Gustavo Jeferson Camillo, João Victor Marcelane, Murilo Ribeiro Postal e Rafael Guerra Caetano ·
+> Orientadores: Carlos Rogerio Rossi e Fernando Jose Aldecoa
 
-<!-- Coloque aqui uma imagem ou GIF do sistema funcionando: -->
+<!-- Colocar aqui uma imagem ou GIF do sistema funcionando: -->
 <!-- ![Demonstração](docs/demo.gif) -->
 
 ## Como funciona
@@ -50,8 +51,8 @@ Python · Ultralytics YOLOv8 · OpenCV · SQLite · Pandas / OpenPyXL
 ## Instalação
 
 ```bash
-git clone https://github.com/[seu-usuario]/[nome-do-repositorio].git
-cd [nome-do-repositorio]
+git clone https://github.com/ArthurAPA/TCC.git
+cd TCC
 
 python -m venv .venv
 # Windows:
@@ -77,10 +78,11 @@ python main.py
 ## Dataset
 
 - 3 classes: `0 Arduino`, `1 Protoboard`, `2 Chave de fenda`
-- 850 imagens de treino e 376 de validação, anotadas no formato YOLO
-- Download: **[link do dataset — Drive/Roboflow]**
+- 880 imagens de treino e 402 de validação, anotadas no formato YOLO
+- Download: **COLOCAR AQUI[link do dataset — Drive/Roboflow]**
 
-As imagens não estão neste repositório por causa do tamanho. Depois de baixá-las, edite a linha `path:` do `arduino.yaml` para apontar para a pasta do dataset no seu computador.
+As imagens não estão neste repositório por conta do tamanho. Depois de baixá-las, edite a linha `path:` do `arduino.yaml` para apontar para a pasta do dataset no seu computador.
+As imagens utilizadas como background (utilizadas no treinamento da IA para a mesma não reconhecer qualquer objeto como os 3 desejados) não estarão no dataset por questões de privacidade
 
 ## Treinamento (opcional)
 
