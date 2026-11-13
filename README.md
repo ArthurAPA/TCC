@@ -111,14 +111,14 @@ Antes de rodar, ajuste os caminhos no topo de cada script. O treino usa o `yolov
 | mAP@50 | [preencher] |
 | mAP@50-95 | [preencher] |
 
+## Gráficos
+
 <p align="center">
-  <img src="https://github.com/ArthurAPA/TCC/blob/main/Logotipo%20futurista%20C.I.A.V.%20em%20azul%20e%20branco.png" alt="Logo" width="500">
+  <img src="https://github.com/ArthurAPA/TCC/blob/main/confusion_matrix_normalized.png" alt="Logo" width="500">
 </p>
 <p align="center">
-  <img src="https://github.com/ArthurAPA/TCC/blob/main/Logotipo%20futurista%20C.I.A.V.%20em%20azul%20e%20branco.png" alt="Logo" width="500">
+  <img src="https://github.com/ArthurAPA/TCC/blob/main/results.png" alt="Logo" width="500">
 </p>
-<!-- Adicione a matriz de confusão e o gráfico de treino: -->
-<!-- ![Matriz de confusão](docs/confusion_matrix.png) -->
 
 ## Limitações e próximos passos
 
