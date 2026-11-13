@@ -1,7 +1,7 @@
 import os
 
 # Caminho da pasta onde estão as labels
-labels_path = r"D:\Programação\TCC\datasets\arduino\train"
+labels_path = DATASET / "train"
 
 # Contadores de imagens por classe
 contagem = {
