@@ -106,10 +106,10 @@ Antes de rodar, ajuste os caminhos no topo de cada script. O treino usa o `yolov
 
 | Métrica | Valor |
 |---|---|
-| Precisão | [preencher] |
-| Recall | [preencher] |
-| mAP@50 | [preencher] |
-| mAP@50-95 | [preencher] |
+| Precisão | 0,990 (99,0%) |
+| Recall | 0,991 (99,1%) |
+| mAP@50 | 0,993 (99,3%) |
+| mAP@50-95 | 0,832 (83,2%) |
 
 ## Gráficos
 
@@ -120,11 +120,16 @@ Antes de rodar, ajuste os caminhos no topo de cada script. O treino usa o `yolov
   <img src="https://github.com/ArthurAPA/TCC/blob/main/results.png" alt="Logo" width="500">
 </p>
 
-## Limitações e próximos passos
+## Limitações
 
-- Dashboard no Power BI a partir do relatório em Excel
-- [Outras limitações observadas nos testes: iluminação, objetos sobrepostos, etc.]
+- É recomendado de que a superfície seja plana e de cores neutras diferente das cores do objeto, caso contrário pode haver variações do resultado
+- Numero limitado de objetos que a IA reconhece, mas que pode ser aumentado com mais treinamento
+
+## Próximos passos
+- Atualização em tempo real dos valores diretamente no dashboars
+- Aumentar o número de objetos que a IA é capaz de reconhecer
+
 
 ## Licença
 
-Código distribuído sob a licença MIT (ver `LICENSE`). O projeto usa o [Ultralytics YOLOv8](https://github.com/ultralytics/ultralytics), licenciado sob AGPL-3.0.
+O projeto usa o [Ultralytics YOLOv8](https://github.com/ultralytics/ultralytics), licenciado sob AGPL-3.0.
