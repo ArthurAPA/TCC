@@ -84,10 +84,7 @@ python main.py
 
 - 3 classes: `0 Arduino`, `1 Protoboard`, `2 Chave de fenda`
 - 880 imagens de treino e 402 de validação, anotadas no formato YOLO
-- Download: **COLOCAR AQUI[link do dataset — Drive/Roboflow]**
 
-As imagens não estão neste repositório por conta do tamanho. Depois de baixá-las, edite a linha `path:` do `arduino.yaml` para apontar para a pasta do dataset no seu computador.
-As imagens utilizadas como background (utilizadas no treinamento da IA para a mesma não reconhecer qualquer objeto como os 3 desejados) não estarão no dataset por questões de privacidade
 
 ## Treinamento (opcional)
 
